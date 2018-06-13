@@ -11,6 +11,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
+ * Created by liming on 2018/6/13.
+ * email liming@finupgroup.com
+ *
  * 利用javassist根据bus注解自动添加注册和反注册代码，目前仅支持Activity和Fragment中使用
  * 在其他地方使用 需要配合@BusRegister以及@BusUnRegister一起使用，才能自动生成注册和反注册代码
  * <p>

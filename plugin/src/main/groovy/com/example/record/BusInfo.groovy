@@ -6,7 +6,7 @@ import javassist.bytecode.annotation.Annotation
 import org.gradle.api.Project
 
 
-class BusInfo {
+public class BusInfo {
 
     Project project//保留当前工程的引用
     CtClass clazz//当前处理的class
